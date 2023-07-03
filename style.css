@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .contenedor{
+    background-color: rgb(182, 187, 141);
+    height: 100px;
+}
+  .titulo{
+    
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Carter One', cursive;
+    
+}
+
+.titulo-carrito{
+  margin: auto;
+  font-family: 'Carter One', cursive;
+  background-color: rgb(182, 187, 141);
+  color: black;
+  text-align: center;
+  padding: 10px;
+  width: 60%;
+  
+}
+  
+  .carrito {
+    margin: auto;
+    background-color: beige;
+    width: 60%;
+    padding: 20px;
+  }
+  
+  #carrito-items {
+    background-color: rgb(182, 187, 141);
+    text-align: center;
+    font-size: 30px;
+    list-style-type: none;
+  }
+ 
+
+  #total{
+  font-size: 20px;
+  font-family: 'Carter One', cursive;
+    
+}
+  
+#checkout-btn {
+  background-color: rgb(72, 99, 255);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}

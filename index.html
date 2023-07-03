@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Anime</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.12/sweetalert2.min.css" integrity="sha512-yX1R8uWi11xPfY7HDg7rkLL/9F1jq8Hyiz8qF4DV2nedX4IVl7ruR2+h3TFceHIcT5Oq7ooKi09UZbI39B7ylw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<header>
+  <nav>
+    <div class="contenedor">
+      <h1 class="titulo">
+        Tienda Anime
+      </h1>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <div>
+    <section class="row row-cols-1 row-cols-md-3 g-4 ms-5 mt-1">
+      <div class="col">
+        <div class="card text-bg-info text-center mb-3" style="width: 20rem;">
+          <img src="https://i0.wp.com/tutiendashoka.com/wp-content/uploads/2023/01/camisetas-de-los-caballeros-de-zodiaco-pegaso.jpg?fit=1200%2C1200&ssl=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Remera Saint Seiya</h5>
+              <p class="card-text">$4000</p>
+              <a href="#" class="btn btn-primary" id="agregar">Agregar al carrito</a>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-info text-center mb-3" style="width: 19rem;">
+          <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/819/313/products/672h1-6fe0bdb29f894fe27e16530670936823-480-0.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Remera Pokemón</h5>
+              <p class="card-text">$4000</p>
+              <a href="#" class="btn btn-primary" id="agregar2">Agregar al carrito</a>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-info text-center mb-3" style="width: 18.5rem;">
+          <img src="https://d22fxaf9t8d39k.cloudfront.net/80653657c9726a2632ee26aa54e969d61252d68d87e79e49b796edb4b71c69a9139919.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Remera Dragon ball</h5>
+              <p class="card-text">$4000</p>
+              <a href="#" class="btn btn-primary" id="agregar3">Agregar al carrito</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!--elementos del carrito -->
+
+    <h1 class="titulo-carrito">Carrito de Compras</h1>
+
+    <div class="carrito">
+      <h2>Producto:</h2>
+      <ul id="carrito-items">
+      </ul>
+      <p id="total">Total: $0</p>
+      <button id="checkout-btn">Realizar Pago</button>
+    </div>
+    <!--Libreria Sweetalert-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.12/sweetalert2.min.js" integrity="sha512-JbRQ4jMeFl9Iem8w6WYJDcWQYNCEHP/LpOA11LaqnbJgDV6Y8oNB9Fx5Ekc5O37SwhgnNJdmnasdwiEdvMjW2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="tienda.js"></script>
+  <script src="carrito.js"></script>
+</body>
+</html>
